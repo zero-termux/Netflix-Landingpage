@@ -18,24 +18,3 @@ for (let i = 0; i < accordian.length; i++) {
     }
   });
 }
-
-
-const selectElement = document.getElementById('languagesSelect');
-        selectElement.addEventListener('change', function (event) {
-            const selectedLanguage = event.target.value;
-            if (selectedLanguage === 'english') {
-                window.location.href = 'index-en.html';
-            } else if (selectedLanguage === 'indonesia') {
-                window.location.href = 'index-id.html';
-            }
-        });
-
-const selectElement2 = document.getElementById('languagesSelect2');
-        selectElement2.addEventListener('change', function (event) {
-            const selectedLanguage = event.target.value;
-            if (selectedLanguage === 'english') {
-                window.location.href = 'index-en.html';
-            } else if (selectedLanguage === 'indonesia') {
-                window.location.href = 'index-id.html';
-            }
-        });
