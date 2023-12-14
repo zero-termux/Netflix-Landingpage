@@ -1,0 +1,362 @@
+<html>
+  <head>
+    <meta name="description" content="Netflix Landing Page Clone" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="google-site-verification" content="0gJfdWRVTYbKtD_OGfrq6IZ-yIbpLIs_vlwy5RMo_yM" />
+
+    <!--------------------------  Stylesheets  ----------------------------->
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Netflix landingpage clone</title>
+    <link
+      rel="icon"
+      href="http://pngimg.com/uploads/netflix/small/netflix_PNG15.png"
+    />
+  </head>
+  <body>
+    <!--------------------------  ----------------------------->
+
+    <!-------------------------- Navbar ----------------------------->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-brand">
+          <img
+            src="netflix-logo.png"
+            alt="logo"
+            class="Netflix-logo"
+          />
+        </div>
+
+        <div class="navbar-nav-items">
+          <div class="nav-item">
+            <div class="dropdown-container">
+              <i class="fas fa-globe"></i>
+              <select
+                name="languages"
+                id="languagesSelect"
+                class="language-dropdown"
+              >
+                <option value="english" selected>Indonesia &nbsp;</option>
+                <option value="indonesia">English &nbsp;</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="nav-item">
+            <button class="signin-button">Sign in</button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-------------------------- Header Netflix background  ----------------------------->
+    <main>
+      <section class="netflix-bg">
+        <div class="netflix-bg-container">
+          <img
+            src="netflix-bg.jpg"
+            alt="netflix background image"
+            class="netflix-bg-image"
+          />
+        </div>
+        <div class="netflix-bg-overlay"></div>
+        <div class="netflix-card">
+          <h1 class="netflix-title">
+            Film tak terbatas, TV<br />
+            Pertunjukan dan Lainnya.
+          </h1>
+          <p class="netflix-subtitle">Tonton di mana saja. Batalkan kapan saja.</p>
+          <p class="netflix-description">
+Siap menonton? Masukkan email Anda untuk membuat atau memulai ulang
+            keanggotaan.
+          </p>
+
+          <!-------------------------- Email-Form ----------------------------->
+
+          <div class="email-form-container">
+            <div class="form-container">
+              <input type="email" class="email-input" placeholder=" " />
+              <label class="email-label">Email Address</label>
+            </div>
+            <button class="primary-button">
+              Get Started <i class="fal fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------- Feature Sections  ----------------------------->
+
+      <section class="features-container">
+        <!-- Feature 1 -->
+        <div class="feature">
+          <div class="feature-details">
+            <h3 class="feature-heading">Nikmati di TV Anda.</h3>
+            <h5 class="feature-sub-heading">
+Tonton di smart TV, PlayStation, Xbox, Chromecast, Apple TV,
+              Pemutar Blu-ray dan banyak lagi.
+            </h5>
+          </div>
+          <div class="feature-image-container">
+            <img
+              src="tv-1.png"
+              alt="Feature image"
+              class="feature-image"
+            />
+          </div>
+        </div>
+
+        <!-- Feature 2 -->
+        <div class="feature">
+          <div class="feature-details">
+            <h3 class="feature-heading">
+              Unduh acara Anda untuk ditonton secara offline.
+            </h3>
+            <h5 class="feature-sub-heading">
+              Simpan favorit Anda dengan mudah dan selalu ada tontonan.
+            </h5>
+          </div>
+          <div class="feature-image-container">
+            <img
+              src="mobile.jpg"
+              alt="Feature image"
+              class="feature-image"
+            />
+            <div class="feature-2-poster-container">
+              <div class="poster-container">
+                <img src="boxshot.png" alt="poster" class="poster" />
+              </div>
+              <div class="poster-details">
+                <h4>Stranger Things</h4>
+                <h6>Downloading...</h6>
+              </div>
+              <div class="download-gif-container">
+                <img
+                  src="download-icon.gif"
+                  alt="downloading gif"
+                  class="gif"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Feature 3 -->
+        <div class="feature">
+          <div class="feature-details">
+            <h3 class="feature-heading">Perhatikan di mana-mana.</h3>
+            <h5 class="feature-sub-heading">
+Streaming film dan acara TV tanpa batas di ponsel, tablet,
+              laptop, dan TV.
+            </h5>
+          </div>
+          <div class="feature-image-container feature-3-image-container">
+            <img
+              src="tv-2.png"
+              alt="Feature image"
+              class="feature-image feature-3-image"
+            />
+          </div>
+        </div>
+
+        <!-- Feature 4 -->
+        <div class="feature">
+          <div class="feature-details">
+            <h3 class="feature-heading">Buat profil untuk anak-anak.</h3>
+            <h5 class="feature-sub-heading">
+Ajak anak bertualang bersama karakter favoritnya di ruang yang dibuat khusus untuk mereka—gratis dengan keanggotaan Anda.
+            </h5>
+          </div>
+          <div class="feature-image-container">
+            <img
+              src="children.png"
+              alt="Feature image"
+              class="feature-image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-------------------------- FAQ Section ----------------------------->
+
+      <section class="FAQ-list-container">
+        <h1 class="FAQ-heading">Pertanyaan yang Sering Diajukan</h1>
+        <div class="FAQ-list">
+          <div class="FAQ-question">
+            <button class="FAQ-title">
+              Apa itu Netflix?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ-answer">
+              <p>
+                acara TV, film, anime, dokumenter pemenang penghargaan, dan banyak lagi –
+                acara TV, film, anime, dokumenter pemenang penghargaan, dan banyak lagi –
+                pada ribuan perangkat yang terhubung ke internet.
+              </p>
+              <p>
+                sesuatu yang baru untuk ditemukan, dan acara TV serta film baru ditambahkan
+                sesuatu yang baru untuk ditemukan, dan acara TV serta film baru ditambahkan
+                setiap minggu!
+              </p>
+            </div>
+          </div>
+          <div class="FAQ-question">
+            <button class="FAQ-title">
+              Berapa biaya Netflix?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ-answer">
+              <p>
+                perangkat streaming, semuanya dengan satu biaya bulanan tetap. Kisaran rencana
+                dari Rp 54.000 hingga Rp 186.000 sebulan. Tanpa biaya tambahan, tanpa kontrak.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ-question">
+            <button class="FAQ-title">
+              Di mana saya bisa menonton?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ-answer">
+              <p>
+                smart TVs, smartphones, tablets, streaming media players and
+                TV pintar, ponsel pintar, tablet, pemutar media streaming, dan
+                konsol permainan.
+              </p>
+              <p>
+                Anda juga dapat mengunduh acara favorit Anda dengan iOS,
+                Aplikasi Android, atau Windows 10. Gunakan unduhan untuk menonton selagi Anda sedang menonton
+Anda juga dapat mengunduh acara favorit Anda dengan iOS,
+                Aplikasi Android, atau Windows 10. Gunakan unduhan untuk menonton selagi Anda sedang menonton
+                saat bepergian dan tanpa koneksi internet.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ-question">
+            <button class="FAQ-title">
+              Bagaimana cara membatalkannya?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ-answer">
+              <p>
+                klik. Tidak ada biaya pembatalan – mulai atau hentikan
+                klik. Tidak ada biaya pembatalan – mulai atau hentikan
+                akun kapan saja.
+              </p>
+            </div>
+          </div>
+          <div class="FAQ-question">
+            <button class="FAQ-title">
+              Apa yang bisa saya tonton dari Netflix?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ-answer">
+              <p>
+                Netflix memiliki perpustakaan film layar lebar yang luas,
+                dokumenter, acara TV, anime, film asli Netflix pemenang penghargaan,
+Netflix memiliki perpustakaan film layar lebar yang luas,
+                dokumenter, acara TV, anime, film asli Netflix pemenang penghargaan,
+                dan banyak lagi. Tonton sebanyak yang Anda mau, kapan pun Anda mau
+              </p>
+            </div>
+          </div>
+          <div class="FAQ-question">
+            <button class="FAQ-title">
+              Apakah Netflix bagus untuk anak-anak?<i class="fal fa-plus"></i>
+            </button>
+            <div class="FAQ-answer">
+              <p>
+                Pengalaman Netflix Kids sudah termasuk dalam keanggotaan Anda
+                memberi orang tua kendali sementara anak-anak menikmati acara TV yang cocok untuk keluarga
+Pengalaman Netflix Kids sudah termasuk dalam keanggotaan Anda
+                memberi orang tua kendali sementara anak-anak menikmati acara TV yang cocok untuk keluarga
+                dan membuat film di ruang mereka sendiri.
+              </p>
+              <p>
+                Profil anak dilengkapi dengan kontrol orang tua yang dilindungi PIN yang memungkinkan
+                Anda membatasi peringkat kedewasaan konten yang dapat ditonton dan ditonton oleh anak-anak
+Profil anak dilengkapi dengan kontrol orang tua yang dilindungi PIN yang memungkinkan
+                Anda membatasi peringkat kedewasaan konten yang dapat ditonton dan ditonton oleh anak-anak
+                blokir judul tertentu yang tidak Anda inginkan
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="FAQ-email">
+          <h3>
+            Siap menonton? Masukkan email Anda untuk membuat atau memulai ulang
+Siap menonton? Masukkan email Anda untuk membuat atau memulai ulang
+            keanggotaan.
+          </h3>
+          <div class="email-form-container">
+            <div class="form-container">
+              <input type="email" class="email-input" placeholder=" " />
+              <label class="email-label">Email Address</label>
+            </div>
+            <button class="primary-button">
+              Get Started <i class="fal fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-------------------------- Footer ----------------------------->
+
+    <footer>
+      <div class="footer-row-1">
+        <h4>Questions? Call 111-222-333-444</h4>
+      </div>
+      <div class="footer-row-2">
+        <div class="column-1">
+          <p>FAQ</p>
+          <p>Investor Relations</p>
+          <p>Privacy</p>
+          <p>Speed Test</p>
+        </div>
+        <div class="column-2">
+          <p>Help Centre</p>
+          <p>Jobs</p>
+          <p>Cookie Preferences</p>
+          <p>Legal Notices</p>
+        </div>
+        <div class="column-3">
+          <p>Account</p>
+          <p>Ways to Watch</p>
+          <p>Corporate Information</p>
+          <p>Only on Netflix</p>
+        </div>
+        <div class="column-4">
+          <p>Media Centre</p>
+          <p>Terms of Use</p>
+          <p>Contact Us</p>
+        </div>
+      </div>
+      <div class="footer-row-3">
+        <div class="dropdown-container">
+          <i class="fas fa-globe"></i>
+          <select
+            name="languages"
+            id="languagesSelect"
+            class="language-dropdown"
+          >
+            <option value="english" selected>Indonesia &nbsp;</option>
+            <option value="indonesia">English &nbsp;</option>
+          </select>
+        </div>
+      </div>
+      <div class="footer-row-4">
+        <p>Netflix INdonesia</p>
+      </div>
+    </footer>
+
+    <script src="index.js"></script>
+  </body>
+</html>
