@@ -18,3 +18,21 @@ for (let i = 0; i < accordian.length; i++) {
     }
   });
 }
+
+
+
+
+document.getElementById('languagesSelect').addEventListener('change', function() {
+    var selectedLanguage = this.value;
+    if (selectedLanguage === 'inggris') {
+        window.location.href = 'index-inggris.html';
+    }
+});
+
+
+document.getElementById('languagesSelect2').addEventListener('change', function() {
+    var selectedLanguage = this.value;
+    if (selectedLanguage === 'inggris') {
+        window.location.href = 'index-inggris.html';
+    }
+});
